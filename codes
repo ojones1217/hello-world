@@ -1,0 +1,11 @@
+#include <string>
+#include<iostream>
+
+
+int main() { 
+  std::string str = "bannana mana blingo blango";
+
+  for(char c : str) {
+    std::cout << c << std::endl;
+  }
+}
