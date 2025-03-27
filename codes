@@ -7,5 +7,6 @@ int main() {
 
   for(char c : str) {
     std::cout << c << std::endl;
+    std::cout << 'e' << std::endl;
   }
 }
